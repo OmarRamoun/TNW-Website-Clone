@@ -127,6 +127,6 @@
   }
 
   .funding article:last-of-type {
-    display: initial;
+    display: revert;
   }
 }
