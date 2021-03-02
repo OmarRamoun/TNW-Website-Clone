@@ -15,3 +15,8 @@ a {
 .header-logo {
   background: #000;
 }
+
+.header-cta {
+  background: #ffdd33;
+  font-size: 0.8rem;
+}

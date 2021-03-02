@@ -31,3 +31,12 @@
   width: 21px;
   height: 21px;
 }
+
+.header-cta {
+  padding: 28px 10px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+}
