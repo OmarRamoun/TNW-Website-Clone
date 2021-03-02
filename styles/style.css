@@ -20,3 +20,48 @@ a {
   background: #ffdd33;
   font-size: 0.8rem;
 }
+
+/*                      FUNDING                     */
+.funding-header * {
+  color: #f42;
+  text-decoration: none;
+}
+
+.funding-header > h2 a {
+  font-family: Avalon-Bold, sans-serif;
+}
+
+.funding-links {
+  font-family: ARS-Marquette-Regular, Arial, Helvetica, sans-serif;
+  font-size: 0.95rem;
+}
+
+.funding-header  h2 a:hover,
+.funding-links > a:hover {
+  color: #000;
+}
+
+.funding-article {
+  font-family: ARS-Marquette-Bold, Arial, Helvetica, sans-serif;
+}
+
+.funding-article header {
+  background-image: linear-gradient(#f53 40%, #ffebe8 40%);
+
+}
+
+.funding-article header a img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.funding-article a {
+  text-decoration: none;
+}
+
+.funding-article-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+/*                        FUNDING                     */

@@ -40,3 +40,49 @@
   text-overflow: ellipsis;
   text-align: center;
 }
+
+/*                      FUNDING                     */
+.funding-header * {
+  margin: 0;
+}
+
+.funding-header {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0;
+}
+
+.funding-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+
+.funding-links span {
+  display: none;
+}
+
+.funding-article * {
+  margin: 0;
+}
+
+.funding-article {
+  margin-bottom: 2rem;
+}
+
+.funding-article header {
+  padding: 0.6rem;
+}
+
+.funding-article header a {
+  display: flex;
+}
+
+.funding-article-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+
+/*                      FUNDING                     */
