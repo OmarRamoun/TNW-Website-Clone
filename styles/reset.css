@@ -17,3 +17,18 @@ body {
   width: 100%;
   height: 100%;
 }
+
+@font-face {
+  font-family: "marquette";
+  src: url("../assets/fonts/ars-marquette-regular.ttf");
+}
+
+@font-face {
+  font-family: "avalon";
+  src: url("../assets/fonts/avalon-bold.ttf");
+}
+
+@font-face {
+  font-family: "shentox";
+  src: url("../assets/fonts/shentox-regular.ttf");
+}
