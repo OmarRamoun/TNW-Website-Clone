@@ -64,4 +64,9 @@ a {
   height: 1rem;
 }
 
-/*                        FUNDING                     */
+/*                        MEDIA QUERIES                     */
+@media screen and (min-width: 768px) {
+  .funding-links {
+    width: 21rem;
+  }
+
