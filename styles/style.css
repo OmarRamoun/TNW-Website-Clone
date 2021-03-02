@@ -71,6 +71,7 @@ a {
 }
 
 .funding-article aside {
+  border-top: #ffebe8 solid 3px;
   font-size: 0.65rem;
   color: #888;
 }
@@ -82,6 +83,10 @@ a {
 .funding-article-icon {
   width: 0.8rem;
   height: 0.8rem;
+}
+
+.source {
+  color: #bbb;
 }
 
 /*                        MEDIA QUERIES                     */
