@@ -1,11 +1,22 @@
 :root {
-  
 }
 
 * {
-  
 }
 
 a {
   cursor: pointer;
+}
+
+.main-header {
+  background-color: #fff;
+}
+
+.header-logo {
+  background: #000;
+}
+
+.header-cta {
+  background: #ffdd33;
+  font-size: 0.8rem;
 }
