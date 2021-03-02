@@ -1,11 +1,17 @@
 :root {
-  
 }
 
 * {
-  
 }
 
 a {
   cursor: pointer;
+}
+
+.main-header {
+  background-color: #fff;
+}
+
+.header-logo {
+  background: #000;
 }
