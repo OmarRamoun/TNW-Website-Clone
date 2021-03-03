@@ -2,6 +2,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/vscode,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=vscode,windows
 
+#node modules
+
+node_modules
+
 ### vscode ###
 .vscode/*
 !.vscode/settings.json
