@@ -58,6 +58,8 @@ a {
 
 .funding-header > h2 a {
   font-family: Avalon-Bold, sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 .funding-links {
@@ -76,7 +78,7 @@ a {
 }
 
 .funding-article header {
-  background-image: linear-gradient(#f53 40%, #ffebe8 40%);
+  background-image: linear-gradient(#f53 54%, #ffebe8 27%);
 
 }
 
@@ -91,11 +93,13 @@ a {
 }
 
 .funding-article-title > h4 {
+  font-size: 1.6rem;
+  font-weight: 900;
   color: #fff;
 }
 
 .funding-article section a p {
-  font-size: 0.7rem;
+  font-size: 1.3rem;
   color: #888;
 }
 
@@ -123,4 +127,4 @@ a {
   .funding-links {
     width: 21rem;
   }
-
+}

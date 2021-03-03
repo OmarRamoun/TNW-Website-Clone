@@ -11,7 +11,7 @@ li {
 }
 
 .page-header {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
 }
@@ -96,7 +96,7 @@ li {
 @media all and (max-width: 840px) {
 
   .page-header { 
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
   }
@@ -108,7 +108,7 @@ li {
 @media all and (max-width: 768px) {
 
   .page-header {
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     left: 0;
@@ -151,6 +151,10 @@ li {
 }
 
 /* FUNDING */
+.full-page-container {
+  margin: 0 8rem;
+}
+
 .funding {
   display: grid;
   grid-row-gap: 10px;
@@ -186,7 +190,7 @@ li {
 }
 
 .funding-article header {
-  height: 5rem;
+  height: 6rem;
   padding: 0.6rem;
 }
 
