@@ -1,0 +1,42 @@
+* {
+  outline: none;
+}
+
+.main-header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.header-logo {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  padding: 10px 20px;
+}
+
+.header-icon {
+  display: flex;
+  padding: 15px;
+  border-left: 0.6px solid #ebebeb;
+}
+
+.header-icon img {
+  width: 21px;
+  height: 21px;
+}
+
+.header-cta {
+  padding: 28px 10px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+}

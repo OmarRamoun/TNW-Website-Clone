@@ -81,7 +81,9 @@ li {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+<<<<<<< HEAD
 }
+
 
 @media all and (max-width: 1024px) {
   .header-logo {
@@ -147,10 +149,11 @@ li {
   .header-cta {
     padding: 2rem 2rem;
     text-align: center;
-  }
+=======
+  text-align: center;
 }
 
-/* FUNDING */
+/*                      FUNDING                     */
 .funding {
   display: grid;
   grid-row-gap: 10px;
@@ -258,5 +261,6 @@ li {
     display: revert;
     margin-right: 1rem;
 
+>>>>>>> feature/funding
   }
 }
