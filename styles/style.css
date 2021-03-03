@@ -12,6 +12,10 @@ a {
   background-color: #fff;
 }
 
+.main-header a:hover {
+  color: #000;
+}
+
 .header-logo {
   background: #000;
 }
@@ -23,6 +27,10 @@ a {
 
   background: #131313;
   color: #ffffff99;
+}
+
+.sub-header a:hover {
+  color: #fff;
 }
 
 .active {
