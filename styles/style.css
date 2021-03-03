@@ -12,11 +12,40 @@ a {
   background-color: #fff;
 }
 
+.main-header a:hover {
+  color: #000;
+}
+
 .header-logo {
   background: #000;
 }
 
+.sub-header {
+  font-family: "marquette";
+  font-size: 1.3rem;
+  text-transform: capitalize;
+
+  background: #131313;
+  color: #ffffff99;
+}
+
+.sub-header a:hover {
+  color: #fff;
+}
+
+.active {
+  color: #fff;
+}
+
+.header-nav-medium {
+  font-family: "shentox";
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
 .header-cta {
   background: #ffdd33;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
+  box-shadow: 0 0px 50px rgba(0,0,0,0.4);
 }
