@@ -16,6 +16,26 @@ a {
   background: #000;
 }
 
+.sub-header {
+  font-family: "marquette";
+  font-size: 1.3rem;
+  text-transform: capitalize;
+
+  background: #131313;
+  color: #ffffff99;
+}
+
+.active {
+  color: #fff;
+}
+
+.header-nav-medium {
+  font-family: "shentox";
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
 .header-cta {
   background: #ffdd33;
   font-size: 0.8rem;
