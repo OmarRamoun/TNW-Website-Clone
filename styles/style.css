@@ -46,5 +46,6 @@ a {
 
 .header-cta {
   background: #ffdd33;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
+  box-shadow: 0 0px 50px rgba(0,0,0,0.4);
 }
