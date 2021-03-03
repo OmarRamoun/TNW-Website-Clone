@@ -1,7 +1,9 @@
 :root {
+  background-color: initial;
 }
 
 * {
+  background-color: initial;
 }
 
 a {
@@ -17,81 +19,6 @@ a {
 }
 
 .header-cta {
-  background: #ffdd33;
+  background: #fd3;
   font-size: 0.8rem;
 }
-
-/*                      FUNDING                     */
-.funding-header * {
-  color: #f42;
-  text-decoration: none;
-}
-
-.funding-header > h2 a {
-  font-family: Avalon-Bold, sans-serif;
-}
-
-.funding-links {
-  font-family: ARS-Marquette-Regular, Arial, Helvetica, sans-serif;
-  font-size: 0.95rem;
-}
-
-.funding-header  h2 a:hover,
-.funding-links > a:hover {
-  color: #000;
-}
-
-.funding-article {
-  font-family: ARS-Marquette-Bold, Arial, Helvetica, sans-serif;
-  background-color: #fff9f2;
-}
-
-.funding-article header {
-  background-image: linear-gradient(#f53 40%, #ffebe8 40%);
-
-}
-
-.funding-article header h5 {
-  font-size: 0.5rem;
-  color: #888;
-}
-
-.funding-article header a img {
-  width: 3rem;
-  height: 3rem;
-}
-
-.funding-article-title > h4 {
-  color: #fff;
-}
-
-.funding-article section a p {
-  font-size: 0.7rem;
-  color: #888;
-}
-
-.funding-article aside {
-  border-top: #ffebe8 solid 3px;
-  font-size: 0.65rem;
-  color: #888;
-}
-
-.funding-article a {
-  text-decoration: none;
-}
-
-.funding-article-icon {
-  width: 0.8rem;
-  height: 0.8rem;
-}
-
-.source {
-  color: #bbb;
-}
-
-/*                        MEDIA QUERIES                     */
-@media screen and (min-width: 768px) {
-  .funding-links {
-    width: 21rem;
-  }
-
