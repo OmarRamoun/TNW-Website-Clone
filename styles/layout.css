@@ -10,14 +10,20 @@ li {
   display: none;
 }
 
+.page-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .full-header-container {
   display: flex;
 }
 
-.header-logo {
-  display: flex;
+.header-logo {  
   width: 100px;
   padding: 10px 20px;
+  flex: 0 0 100px;
 }
 
 .header-menu-wrapper {
@@ -43,9 +49,8 @@ li {
   justify-content: space-between;
 }
 
-.main-header {
+.main-header {  
   display: flex;
-  position: sticky;
 }
 
 .header-nav-medium {
@@ -71,14 +76,44 @@ li {
 }
 
 .header-cta {
-  padding: 10px 10px;
+  padding: 0.8rem 1.6rem;
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 
+
+@media all and (max-width: 1024px) {
+  .header-logo {
+    display: flex;
+  }
+
+  .header-cta {
+    padding-left: 11.5rem;
+  }
+}
+
+@media all and (max-width: 840px) {
+
+  .page-header { 
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  .sub-header-nav-medium.right {
+    display: none;
+  }
+}
+
 @media all and (max-width: 768px) {
+
+  .page-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
 
   .sub-header,
   .header-nav-medium {
@@ -111,11 +146,7 @@ li {
   }
 
   .header-cta {
-    padding: 20px 10px;
+    padding: 2rem 2rem;
     text-align: center;
   }
-}
-
-@media all and (max-width: 1024px) {
-
 }
