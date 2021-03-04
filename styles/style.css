@@ -67,9 +67,9 @@ a {
 }
 
 .header-cta {
-  background: #ffdd33;
+  background: #fd3;
   font-size: 1.5rem;
-  box-shadow: 0 0 50px rgba(0,0,0,.4);
+  box-shadow: 0 0 50px rgba(0, 0, 0, .4);
 }
 
 /*                      FUNDING                     */

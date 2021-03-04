@@ -100,6 +100,7 @@ li {
     width: 100%;
     top: 0;
   }
+
   .sub-header-nav-medium.right {
     display: none;
   }
@@ -258,7 +259,7 @@ li {
   }
 
   .funding article:last-of-type {
-    display: revert;
+    display: block;
     margin-right: 1rem;
   }
 }
