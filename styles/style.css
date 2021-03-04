@@ -24,6 +24,21 @@ a {
   text-decoration: none;
 }
 
+.funding-header > h2 a {
+  font-family: Avalon-Bold, sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.sub-header a:hover {
+  color: #fff;
+}
+
+.funding-header h2 a:hover,
+.funding-links > a:hover {
+  color: #000;
+}
+
 .main-header a:hover {
   color: #000;
 }
@@ -38,21 +53,6 @@ a {
   text-transform: capitalize;
   background: #131313;
   color: #fff9;
-}
-
-.funding-header > h2 a {
-  font-family: Avalon-Bold, sans-serif;
-  font-size: 2rem;
-  font-weight: 900;
-}
-
-.funding-header h2 a:hover,
-.funding-links > a:hover {
-  color: #000;
-}
-
-.sub-header a:hover {
-  color: #fff;
 }
 
 .active {
