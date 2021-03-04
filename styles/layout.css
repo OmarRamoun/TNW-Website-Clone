@@ -24,6 +24,7 @@ li {
   width: 100px;
   padding: 10px 20px;
   flex: 0 0 100px;
+  z-index: 10;
 }
 
 .header-menu-wrapper {
