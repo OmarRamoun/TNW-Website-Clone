@@ -4,6 +4,12 @@
 
 * {
   background-color: initial;
+  transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition-duration: 0.9s;
+  -webkit-transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -moz-transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -ms-transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -o-transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 
 a {
