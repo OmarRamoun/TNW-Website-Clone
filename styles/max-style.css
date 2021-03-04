@@ -10,7 +10,7 @@
   font-family: Avalon-Bold, sans-serif;
   font-weight: bolder;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1.1;
   letter-spacing: -0.1rem;
 }
@@ -18,7 +18,7 @@
 .highlights span,
 .highlights span a {
   font-family: ARS-Arquette-Regular, sans-serif;
-  font-size: 0.7rem;
+  font-size: 1.2rem;
   color: hsla(0, 0%, 100%, 0.6);
 }
 
@@ -30,8 +30,7 @@
 }
 
 .highlights-article-logo {
-  height: 5rem;
-  width: 20rem;
+  height: 10rem;
 }
 
 .hightlights-article-author {
@@ -53,6 +52,7 @@
 }
 
 .highlights-article-item aside span {
+  font-size: 1.3rem;
   color: #fff;
 }
 
@@ -62,10 +62,6 @@
 
 .highlights-article-item section span {
   margin: 0 0.3rem;
-}
-
-.highlights-article-opal aside span {
-  font-size: 0.9rem;
 }
 
 .highlights-article-item section span:first-of-type {
@@ -94,7 +90,12 @@
 }
 
 /*      HIGHLIGHTS      */
+
+/*                        */
 /*      MEDIA QUERIES     */
+/*                        */
+
+/*      TABLET      */
 @media screen and (min-width: 768px) {
 
   /*      HIGHLIGHTS      */
@@ -110,7 +111,7 @@
   }
 
   .highlights article:first-of-type h5 a {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 
   .highlights-article-opal {
@@ -124,4 +125,41 @@
   }
 
   /*      HIGHLIGHTS      */
+}
+
+/*      DESKTOP     */
+@media screen and (min-width: 1024px) {
+  .highlights {
+    grid-template-areas:
+      'main main side'
+      'main main side';
+  }
+
+  .highlights article:first-of-type h5 a {
+    font-size: 4.5rem;
+  }
+
+  .highlights-article-opal {
+    height: 40rem;
+    padding: 2rem;
+    background-image: linear-gradient(170deg, rgba(255, 50, 10, 0.7) 33%, rgba(0, 0, 0, 0.7) 66%), url("../assets/images/opal.png");
+    background-size: cover;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .highlights-article-opal aside {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-between;
+  }
+
+  .highlights-article-opal aside span {
+    z-index: 10;
+  }
+
+  .highlights-article-cookie-killer,
+  .highlights-article-mac-app {
+    height: auto;
+  }
 }
