@@ -3,7 +3,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=vscode,windows
 
 ### node modules ###
-node_modules
+node_modules/
+hint-report/
 
 ### vscode ###
 .vscode/*
