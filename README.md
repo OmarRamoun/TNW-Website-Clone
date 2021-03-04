@@ -1,65 +1,75 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 ![](https://img.shields.io/static/v1?label=BY&message=RAMOUN&color=birghtgreen)
 
-# Project Name
+# TNW Responsive Homepage Clone
 
-> One paragraph statement about the project.
+> A Responsive Clone of the TNW Homepage.
 
-![screenshot](images/app_screenshot.png)
-| *Additional description about the project and its features.*
+![screenshot](assets/images/app-screenshot.png)
+| *A screenshop of the First version of the webpage clone.*
 
 ## Built With
 
-- Languages: _**N/A**_
+- Languages: _**HTML, CSS**_
 - Frameworks: _**N/A**_
-- Technologies used: _**N/A**_
+- Technologies used: _**Git, GitHub**_
+- Features: _**Responsive**_
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+- [Live Demo Link](https://mrramoun.github.io/TNW-Website-Clone)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+## Local Copy
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- browser (e.g: chrome).
+
 ### Setup
 
-### Install
-
+- Open the terminal (cmd for windows users).
+- Clone the repo to your local machine.
+    ```bash
+    git clone https://github.com/MrRamoun/TNW-Website-Clone.git
+    ```
+- Open the repo directory
+    ```bash
+    cd TNW-Website-Clone
+    ```
 ### Usage
 
-### Run tests
-
-### Deployment
+- Open the `index.html` file in your browser of choice.
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Ramoun**
 
 - GitHub: [@mrramoun](https://github.com/mrramoun)
 - Twitter: [@ramoun16](https://twitter.com/ramoun16)
 - LinkedIn: [@ramoun](https://www.linkedin.com/in/ramoun/)
 
-👤 **Author2**
+👤 **Maximiliano**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
+
+👤 **Chibuike Uzoechina**
+
+- GitHub: [@Chike1990](https://github.com/Chike1990)
+- Twitter: [@ChibuikeUzoechi](https://twitter.com/@ChibuikeUzoechi)
+- LinkedIn: [@chibuike-uzoechina](https://www.linkedin.com/in/chibuike-uzoechina-630857102)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/MrRamoun/TNW-Website-Clone/issues).
 
 ## Show your support
 
@@ -68,9 +78,9 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- My Fellow Coding Partner
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](./LICENSE) licensed.
