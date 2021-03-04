@@ -20,6 +20,10 @@ a {
   background-color: #fff;
 }
 
+.funding-article a {
+  text-decoration: none;
+}
+
 .main-header a:hover {
   color: #000;
 }
@@ -29,12 +33,22 @@ a {
 }
 
 .sub-header {
-  font-family: "marquette";
+  font-family: "marquette", arial, sans-serif;
   font-size: 1.3rem;
   text-transform: capitalize;
-
   background: #131313;
-  color: #ffffff99;
+  color: #fff9;
+}
+
+.funding-header > h2 a {
+  font-family: Avalon-Bold, sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.funding-header h2 a:hover,
+.funding-links > a:hover {
+  color: #000;
 }
 
 .sub-header a:hover {
@@ -46,7 +60,7 @@ a {
 }
 
 .header-nav-medium {
-  font-family: "shentox";
+  font-family: "shentox", arial, sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
   color: #aaa;
@@ -55,7 +69,7 @@ a {
 .header-cta {
   background: #ffdd33;
   font-size: 1.5rem;
-  box-shadow: 0 0px 50px rgba(0,0,0,0.4);
+  box-shadow: 0 0 50px rgba(0,0,0,.4);
 }
 
 /*                      FUNDING                     */
@@ -64,20 +78,9 @@ a {
   text-decoration: none;
 }
 
-.funding-header > h2 a {
-  font-family: Avalon-Bold, sans-serif;
-  font-size: 2rem;
-  font-weight: 900;
-}
-
 .funding-links {
   font-family: ARS-Marquette-Regular, Arial, Helvetica, sans-serif;
   font-size: 0.95rem;
-}
-
-.funding-header  h2 a:hover,
-.funding-links > a:hover {
-  color: #000;
 }
 
 .funding-article {
@@ -87,7 +90,6 @@ a {
 
 .funding-article header {
   background-image: linear-gradient(#f53 54%, #ffebe8 27%);
-
 }
 
 .funding-article header h5 {
@@ -115,10 +117,6 @@ a {
   border-top: #ffebe8 solid 3px;
   font-size: 0.65rem;
   color: #888;
-}
-
-.funding-article a {
-  text-decoration: none;
 }
 
 .funding-article-icon {

@@ -1,10 +1,10 @@
 /*		HIGHLIGHTS		*/
 .highlights {
   display: grid;
-    grid-template-areas: 'auto' 'auto' 'auto';
-    grid-row-gap: 0.5rem;
-  }
-  
+  grid-template-areas: "auto" "auto" "auto";
+  grid-row-gap: 0.5rem;
+}
+
 .highlights h5 a {
   text-decoration: none;
   font-family: Avalon-Bold, sans-serif;
@@ -25,6 +25,7 @@
 .highlights-article-item section a {
   text-decoration: none;
 }
+
 .highlights section img {
   height: 1rem;
 }
@@ -36,6 +37,7 @@
 .hightlights-article-author {
   display: flex;
 }
+
 .highlights-article-item {
   display: flex;
   align-items: flex-end;
@@ -69,7 +71,8 @@
 }
 
 .highlights-article-opal {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("../assets/images/opal.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url("../assets/images/opal.png");
   background-size: cover;
   justify-content: space-between;
 }
@@ -80,29 +83,28 @@
 }
 
 .highlights-article-cookie-killer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("../assets/images/cookie-killer.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url("../assets/images/cookie-killer.png");
   background-size: cover;
 }
 
 .highlights-article-mac-app {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("../assets/images/mac-app.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url("../assets/images/mac-app.png");
   background-size: cover;
 }
 
 /*      HIGHLIGHTS      */
 
-/*                        */
 /*      MEDIA QUERIES     */
-/*                        */
 
 /*      TABLET      */
 @media screen and (min-width: 768px) {
-
   /*      HIGHLIGHTS      */
   .highlights {
     grid-template-areas:
-      'main main side'
-      'main main side';
+      "main main side"
+      "main main side";
     grid-column-gap: 0.5rem;
   }
 
@@ -131,8 +133,8 @@
 @media screen and (min-width: 1024px) {
   .highlights {
     grid-template-areas:
-      'main main side'
-      'main main side';
+      "main main side"
+      "main main side";
   }
 
   .highlights article:first-of-type h5 a {
@@ -142,7 +144,12 @@
   .highlights-article-opal {
     height: 40rem;
     padding: 2rem;
-    background-image: linear-gradient(170deg, rgba(255, 50, 10, 0.7) 33%, rgba(0, 0, 0, 0.7) 66%), url("../assets/images/opal.png");
+    background-image: linear-gradient(
+        170deg,
+        rgba(255, 50, 10, 0.7) 33%,
+        rgba(0, 0, 0, 0.7) 66%
+      ),
+      url("../assets/images/opal.png");
     background-size: cover;
     flex-direction: column;
     justify-content: space-between;
