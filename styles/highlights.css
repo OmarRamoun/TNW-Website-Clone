@@ -87,8 +87,7 @@
 }
 
 .highlights-article-mac-app {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-    url("../assets/images/mac-app.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("../assets/images/mac-app.png");
   background-size: cover;
 }
 

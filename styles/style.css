@@ -34,12 +34,15 @@ a {
   color: #fff;
 }
 
-.funding-header h2 a:hover,
+.main-header a:hover {
+  color: #000;
+}
+
 .funding-links > a:hover {
   color: #000;
 }
 
-.main-header a:hover {
+.funding-header h2 a:hover {
   color: #000;
 }
 
@@ -69,7 +72,7 @@ a {
 .header-cta {
   background: #fd3;
   font-size: 1.5rem;
-  box-shadow: 0 0 50px rgba(0, 0, 0, .4);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
 }
 
 /*                      FUNDING                     */
