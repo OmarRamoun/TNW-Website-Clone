@@ -1,0 +1,87 @@
+/*		HIGHLIGHTS		*/
+.highlights {
+    grid-template-areas: 'auto' 'auto' 'auto';
+    grid-gap: 0.5rem;
+  }
+  
+  .copyright-text img {
+    height: 0.55rem;
+  }
+  
+  .social-media img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .highlights section img {
+    height: 1rem;
+  }
+  
+  .article-logo {
+    height: 5rem;
+    width: 20rem;
+  }
+  
+  .article-item {
+    align-items: flex-end;
+    height: 10rem;
+    padding: 1rem;
+  }
+  
+  .article-item h5 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-media a:hover {
+    background-color: #171717;
+  }
+  
+  .footer-links a:hover {
+    color: #eee;
+  }
+  
+  .article-item header section span a:hover {
+    color: #fff;
+  }
+  
+  .article-item aside span {
+    color: #fff;
+  }
+  
+  .article-item section {
+    align-items: center;
+  }
+  
+  .article-item section span {
+    margin: 0 0.3rem;
+  }
+  
+  .article-opal aside span {
+    font-size: 0.9rem;
+  }
+  
+  .article-item section span:first-of-type {
+    margin-left: 0;
+  }
+  
+  .article-opal {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("assets/images/opal.png");
+    background-size: cover;
+    justify-content: flex-end;
+    align-items: stretch;
+  }
+  
+  .article-opal aside {
+    display: none;
+    justify-content: space-between;
+  }
+  
+  .article-cookie-killer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("assets/images/cookie-killer.png");
+    background-size: cover;
+  }
+  
+  .article-mac-app {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("assets/images/mac-app.png");
+    background-size: cover;
+  }
