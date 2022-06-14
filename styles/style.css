@@ -1,0 +1,139 @@
+:root {
+  background-color: initial;
+}
+
+* {
+  background-color: initial;
+  transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition-duration: 0.9s;
+  -webkit-transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -moz-transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -ms-transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -o-transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+a {
+  cursor: pointer;
+}
+
+.main-header {
+  background-color: #fff;
+}
+
+.funding-article a {
+  text-decoration: none;
+}
+
+.funding-header > h2 a {
+  font-family: Avalon-Bold, sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.sub-header a:hover {
+  color: #fff;
+}
+
+.main-header a:hover {
+  color: #000;
+}
+
+.funding-links > a:hover {
+  color: #000;
+}
+
+.funding-header h2 a:hover {
+  color: #000;
+}
+
+.header-logo {
+  background: #000;
+}
+
+.sub-header {
+  font-family: "marquette", arial, sans-serif;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  background: #131313;
+  color: #fff9;
+}
+
+.active {
+  color: #fff;
+}
+
+.header-nav-medium {
+  font-family: "shentox", arial, sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
+.header-cta {
+  background: #fd3;
+  font-size: 1.5rem;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+}
+
+/*                      FUNDING                     */
+.funding-header * {
+  color: #f42;
+  text-decoration: none;
+}
+
+.funding-links {
+  font-family: ARS-Marquette-Regular, Arial, Helvetica, sans-serif;
+  font-size: 0.95rem;
+}
+
+.funding-article {
+  font-family: ARS-Marquette-Bold, Arial, Helvetica, sans-serif;
+  background-color: #fff9f2;
+}
+
+.funding-article header {
+  background-image: linear-gradient(#f53 54%, #ffebe8 27%);
+}
+
+.funding-article header h5 {
+  font-size: 0.5rem;
+  color: #888;
+}
+
+.funding-article header a img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.funding-article-title > h4 {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.funding-article section a p {
+  font-size: 1.3rem;
+  color: #888;
+}
+
+.funding-article aside {
+  border-top: #ffebe8 solid 3px;
+  font-size: 0.65rem;
+  color: #888;
+}
+
+.funding-article-icon {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.source {
+  color: #bbb;
+}
+
+/*                        MEDIA QUERIES                     */
+@media screen and (min-width: 768px) {
+  .funding-links {
+    width: 21rem;
+  }
+}

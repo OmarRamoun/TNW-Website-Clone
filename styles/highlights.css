@@ -1,0 +1,164 @@
+/*		HIGHLIGHTS		*/
+.highlights {
+  display: grid;
+  grid-template-areas: "auto" "auto" "auto";
+  grid-row-gap: 0.5rem;
+}
+
+.highlights h5 a {
+  text-decoration: none;
+  font-family: Avalon-Bold, sans-serif;
+  font-weight: bolder;
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1.1;
+  letter-spacing: -0.1rem;
+}
+
+.highlights span,
+.highlights span a {
+  font-family: ARS-Arquette-Regular, sans-serif;
+  font-size: 1.2rem;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.highlights-article-item section a {
+  text-decoration: none;
+}
+
+.highlights section img {
+  height: 1rem;
+}
+
+.highlights-article-logo {
+  height: 10rem;
+}
+
+.hightlights-article-author {
+  display: flex;
+}
+
+.highlights-article-item {
+  display: flex;
+  align-items: flex-end;
+  height: 13rem;
+  padding: 1rem;
+}
+
+.highlights-article-item h5 {
+  margin-bottom: 0.5rem;
+}
+
+.highlights-article-item header section span a:hover {
+  color: #fff;
+}
+
+.highlights-article-item aside span {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.highlights-article-item section {
+  align-items: center;
+}
+
+.highlights-article-item section span {
+  margin: 0 0.3rem;
+}
+
+.highlights-article-item section span:first-of-type {
+  margin-left: 0;
+}
+
+.highlights-article-opal {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("../assets/images/opal.png");
+  background-size: cover;
+  justify-content: space-between;
+}
+
+.highlights-article-opal aside {
+  display: none;
+  justify-content: space-between;
+}
+
+.highlights-article-cookie-killer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("../assets/images/cookie-killer.png");
+  background-size: cover;
+}
+
+.highlights-article-mac-app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("../assets/images/mac-app.png");
+  background-size: cover;
+}
+
+/*      HIGHLIGHTS      */
+
+/*      MEDIA QUERIES     */
+
+/*      TABLET      */
+@media screen and (min-width: 768px) {
+  /*      HIGHLIGHTS      */
+  .highlights {
+    grid-template-areas:
+      "main main side"
+      "main main side";
+    grid-column-gap: 0.5rem;
+  }
+
+  .social-media a {
+    margin: 0 0.5rem;
+  }
+
+  .highlights article:first-of-type h5 a {
+    font-size: 3.5rem;
+  }
+
+  .highlights-article-opal {
+    grid-area: main;
+    height: 30rem;
+  }
+
+  .highlights-article-cookie-killer,
+  .highlights-article-mac-app {
+    height: auto;
+  }
+
+  /*      HIGHLIGHTS      */
+}
+
+/*      DESKTOP     */
+@media screen and (min-width: 1024px) {
+  .highlights {
+    grid-template-areas:
+      "main main side"
+      "main main side";
+  }
+
+  .highlights article:first-of-type h5 a {
+    font-size: 4.5rem;
+  }
+
+  .highlights-article-opal {
+    height: 40rem;
+    padding: 2rem;
+    background-image: linear-gradient(170deg, rgba(255, 50, 10, 0.7) 33%, rgba(0, 0, 0, 0.7) 66%), url("../assets/images/opal.png");
+    background-size: cover;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .highlights-article-opal aside {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-between;
+  }
+
+  .highlights-article-opal aside span {
+    z-index: 1;
+  }
+
+  .highlights-article-cookie-killer,
+  .highlights-article-mac-app {
+    height: auto;
+  }
+}

@@ -1,0 +1,33 @@
+:root {
+  font: 62.5%/1.2 sans-serif;
+}
+
+body,
+body * {
+  margin: unset;
+  box-sizing: border-box;
+  padding: unset;
+  font-size: unset;
+  color: unset;
+  text-decoration: unset;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+@font-face {
+  font-family: "marquette";
+  src: url("../assets/fonts/ars-marquette-regular.ttf");
+}
+
+@font-face {
+  font-family: "avalon";
+  src: url("../assets/fonts/avalon-bold.ttf");
+}
+
+@font-face {
+  font-family: "shentox";
+  src: url("../assets/fonts/shentox-regular.ttf");
+}
