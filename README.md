@@ -1,5 +1,9 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-![](https://img.shields.io/static/v1?label=BY&message=RAMOUN&color=birghtgreen)
+[![](https://img.shields.io/static/v1?label=BY&message=RAMOUN&color=birghtgreen)](https://omarramoun.com)
+[![Website](https://img.shields.io/badge/OmarRamoun.com--yellow?style=social&logo=Firefox)](https://www.omarramoun.com/)
+
+![html](https://img.shields.io/badge/-html-1f1f1f?logo=html5&logoColor=DB709361DAFB&style=for-the-badge)
+![css](https://img.shields.io/badge/CSS-fbfbfb?style=for-the-badge&logo=css3&logoColor=DB7093)
+![javascript](https://img.shields.io/badge/javascript-CA4245?style=for-the-badge&logo=javascript&logoColor=white)
 
 # TNW Responsive Homepage Clone
 
@@ -17,7 +21,7 @@
 
 ## Live Demo
 
-- [Live Demo Link](https://mrramoun.github.io/TNW-Website-Clone)
+- [Live Demo Link](https://omarramoun.github.io/TNW-Website-Clone)
 
 ## Local Copy
 
@@ -46,30 +50,18 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Ramoun**
+👤 **Omar Ramoun**
 
-- GitHub: [@mrramoun](https://github.com/mrramoun)
-- Twitter: [@ramoun16](https://twitter.com/ramoun16)
-- LinkedIn: [@ramoun](https://www.linkedin.com/in/ramoun/)
-
-👤 **Maximiliano**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-
-👤 **Chibuike Uzoechina**
-
-- GitHub: [@Chike1990](https://github.com/Chike1990)
-- Twitter: [@ChibuikeUzoechi](https://twitter.com/@ChibuikeUzoechi)
-- LinkedIn: [@chibuike-uzoechina](https://www.linkedin.com/in/chibuike-uzoechina-630857102)
+- **GitHub**: [![@omarramoun](https://img.shields.io/github/followers/OmarRamoun?label=OmarRamoun&style=social)](https://github.com/OmarRamoun)
+- **Twitter**: [![@omarramoun](https://img.shields.io/twitter/follow/OmarRamoun?label=OmarRamoun&style=social)](https://twitter.com/OmarRamoun)
+- **LinkdIn**: [![@omarramoun](https://img.shields.io/github/followers/OmarRamoun?label=OmarRamoun&logo=linkedin&style=social)](https://www.linkedin.com/in/OmarRamoun/)
+- **Website**: [![Website](https://img.shields.io/badge/omarramoun.com--yellow?style=social&logo=Firefox)](https://www.omarramoun.com/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/MrRamoun/TNW-Website-Clone/issues).
+Feel free to check the [issues page](https://github.com/OmarRamoun/TNW-Website-Clone/issues).
 
 ## Show your support
 
